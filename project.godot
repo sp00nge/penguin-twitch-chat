@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="penguin-twchat"
+run/main_scene="uid://c3udqcx7uu0am"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+TwitchWS="*uid://cdt27fveqpuw0"
+TwitchMessageParser="*uid://hakoencyjrc8"
 
 [display]
 
